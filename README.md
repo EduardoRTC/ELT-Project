@@ -4,7 +4,7 @@ Arquitetura Medallion • Airflow 3 • PySpark 4 • Databricks
 ## 1. Visão Geral 🚀
 Pipeline ELT em quatro camadas (Landing → Bronze → Silver → Gold) que:
 
-* recebe arquivo `rel_vendas.csv`;
+* recebe arquivo `rel_vendas.xlsx`;
 * limpa e enriquece os dados segundo regras de negócio;
 * gera um **dataset Gold** pronto para análise de performance e detecção de anomalias.
 
