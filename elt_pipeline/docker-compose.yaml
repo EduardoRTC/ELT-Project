@@ -70,7 +70,7 @@ services:
     depends_on:
       - airflow-ui
     environment: *airflow-env
-    command: ["airflow", "scheduler"]
+    command: ["bash", "-c", "airflow dags reserialize && airflow scheduler"]
     volumes: *airflow-vols
     restart: unless-stopped
 

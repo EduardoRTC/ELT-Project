@@ -1,0 +1,17 @@
+{
+  "name": "Airflow Dev",
+  // use o compose da raiz; o caminho é relativo a .devcontainer/
+  "dockerComposeFile": ["../docker-compose.yml"],
+
+  // nome EXATO do serviço que contém o Python do Airflow
+  "service": "airflow-scheduler",
+
+  // a pasta que você enxerga DE DENTRO do contêiner
+  // (no seu compose, a bind‑mount /opt/airflow tem os DAGs)
+  "workspaceFolder": "/opt/airflow",
+
+  // a imagem oficial roda como root; assim evita problemas de permissão
+  "remoteUser": "root",
+
+  "extensions": ["ms-python.python"]
+}
