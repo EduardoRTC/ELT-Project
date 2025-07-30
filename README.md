@@ -1,10 +1,10 @@
-# Aprendendo Docker + Airflow
+# Aprendendo Docker + Airflow + DATABRICKS
 Ambiente de desenvolvimento local com Docker Compose
 
 ## Sobre
 Projeto para aprender Docker e Apache Airflow configurando um ambiente completo usando containers.
 
-### O que você vai aprender
+### Quais ferramentas utilizar ?
 * **Docker**: Containerização, imagens, volumes, networks
 * **Docker Compose**: Orquestração multi-container, variáveis de ambiente
 * **Apache Airflow**: Interface web, DAGs, tasks, scheduling
