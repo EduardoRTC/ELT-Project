@@ -1,4 +1,4 @@
-# Aprendendo Docker + Airflow + DATABRICKS
+# Aprendendo Docker + Airflow + Databricks
 Ambiente de desenvolvimento local com Docker Compose
 
 ## Sobre
